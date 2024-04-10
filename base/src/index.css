@@ -4,6 +4,13 @@
   box-sizing: border-box;
   font-family: 'Open Sans', sans-serif;
 }
+section {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  font-size: 32px;
+  font-weight: bold;
+}
 
 html, body, #root {
   background-color:aliceblue;
