@@ -1,2 +1,2 @@
 # NTS-LP
-Project of NTS's website 
+NTS website abording the business and services        
