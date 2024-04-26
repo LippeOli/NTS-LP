@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link, animateScroll as scroll } from "react-scroll";
 import "./styles.css";
 
@@ -7,11 +7,20 @@ const Navbar = () => {
         scroll.scrollToTop();
     };
 
+    const [menuOpen, setMenuOpen] = useState(false);
+
     return (
         <nav>
             <p className="title" onClick={scrollToTop}>NTS</p>
-
-            <ul>
+            <div className="menu" onClick={() => {
+                setMenuOpen(!menuOpen);
+            }}>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            {/* Aplicando a classe condicional diretamente no JSX */}
+            <ul className={menuOpen ? "open" : ""}>
                 <li>
                     <Link 
                         activeClass="active"
