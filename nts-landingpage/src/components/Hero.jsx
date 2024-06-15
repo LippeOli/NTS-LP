@@ -1,5 +1,5 @@
 import React from "react";
-import { Typed } from "react-typed";
+//import Typed
 
 function Hero() {
   return (
@@ -18,7 +18,7 @@ function Hero() {
         
         <p className="md:text-2xl text-xl font-bold text-gray-500">Monitor your data analytics to increase revenue for BTB, BTC, & SAAS platforms</p>
         
-        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto px-3 text-black">Get Started</button>
+        <button className="bg-[#00df9a] w-[200px] h-[35px] rounded-2xl font-medium my-6 mx-auto px-3 text-black">Get Started</button>
       </div>
     </div>
   );
